@@ -1,4 +1,47 @@
 
 *{
-    
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-color-header{
+    background: rgb(165, 230, 230);
+}
+
+.navbar-brand{
+    max-width: 7rem;
+}
+
+#navbar-itens .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+#slider-container{
+    margin-top: 12rem;
+}
+
+img{
+    height: 36rem;
+}
+
+.bi-cart4, .bi-android2, .bi-apple, .bi-cpu-fill{
+    font-size: 3rem;
+}
+
+.nav-link{
+    font-size: 1.5rem;
+}
+
+.card{
+    margin-top: -5rem;
+}
+
+.btn{
+    margin-bottom: 6rem;
 }
