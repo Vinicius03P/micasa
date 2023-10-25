@@ -8,7 +8,7 @@
 }
 
 .navbar-brand{
-    width: 7rem;
+    width: 5rem;
 }
 
 #navbar-itens .navbar-nav {
@@ -23,7 +23,7 @@
 }
 
 #slider-container{
-    margin-top: 12rem;
+    margin-top: 10rem;
 }
 
 
@@ -48,23 +48,48 @@
     margin-bottom: 4rem;
 }
 
+#featured-images .col-md-4 {
+    position: relative;
+    cursor: pointer;
+}
+  
+#featured-images .col-md-4:hover > .banner-content {
+    opacity: 0.8;
+}
+  
+#featured-images .banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.5s;
+}
+
 @media (max-width: 575px){
     .card{
         margin-top: 1rem;
        
     }
-}
-
-@media (max-width: 575px){
     .texto-primario{
-        margin-top: 1rem;
-       
+        margin-top: 1.2rem;
     }
 }
-
 @media (max-width: 550px){
     #slider-container{
-        margin-top: 10rem;
+        margin-top: 8rem;
+    }
+    .navbar-brand{
+        width: 5rem;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        font-size: 3rem;
     }
 }
 
@@ -72,23 +97,14 @@
     #slider-container{
         margin-top: 8rem;
     }
+    .navbar-brand{
+        width: 3rem;
+    }
 }
 
 @media (max-width: 350px){
     .btn, h5{
         font-size: 0.7rem;
         margin-bottom: -4rem;
-    }
-}
-
-@media (max-width: 550px){
-    .navbar-brand{
-        width: 5rem;
-    }
-}
-
-@media (max-width: 450px){
-    .navbar-brand{
-        width: 3rem;
     }
 }
