@@ -3,6 +3,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .bg-color-header{
     background: rgb(179, 239, 164);
 }
@@ -77,6 +81,20 @@ spam{
     transition: 0.5s;
 }
 
+#footer{
+    background-color:  rgb(179, 239, 164);
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+
+#exampleFormControlTextarea1{
+    height: 10rem;
+}
+
+#contato{
+    margin-bottom: 1.5rem;
+}
+
 @media (max-width: 575px){
     .card{
         margin-top: 1rem;
@@ -111,5 +129,26 @@ spam{
     .btn, h5{
         font-size: 0.7rem;
         margin-bottom: -4rem;
+    }
+}
+
+@media (max-width: 1185px){
+    #mapa{
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 796px){
+    #mapa{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width: 315px){
+    #mapa{
+        height: 200px;
+        width: 200px;
     }
 }
