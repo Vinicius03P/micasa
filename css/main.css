@@ -95,6 +95,14 @@ spam{
     margin-bottom: 1.5rem;
 }
 
+.bi-youtube, .bi-instagram, .bi-facebook, .bi-twitter{
+    font-size: 2rem;
+}
+
+.container-sobre{
+    margin-top: 3rem;
+}
+
 @media (max-width: 575px){
     .card{
         margin-top: 1rem;
