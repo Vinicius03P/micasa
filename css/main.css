@@ -4,7 +4,7 @@
 }
 
 .bg-color-header{
-    background: rgb(165, 230, 230);
+    background: rgb(179, 239, 164);
 }
 
 .navbar-brand{
@@ -28,12 +28,17 @@
 
 
 
-.bi-cart4, .bi-android2, .bi-apple, .bi-cpu-fill{
+.bi-clipboard2, .bi-calendar4-week, .bi-map, .bi-cpu-fill{
     font-size: 3rem;
 }
 
 .nav-link{
     font-size: 1.5rem;
+    color: white;
+}
+
+spam{
+    color: white;
 }
 
 .card{
